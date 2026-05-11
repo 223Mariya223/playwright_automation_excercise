@@ -9,28 +9,34 @@ Prerequisites:Ensure you have [Node.js](https://nodejs.org/) installed on your m
 Clone the repository:
 
 git clone https://github.com/223Mariya223/playwright_automation_excercise.git
+
 cd playwright_automation_excercise
+
 Install dependencies:
 
-Bash
+
 npm install
+
 Install Playwright browsers:
 
-Bash
+
 npx playwright install --with-deps
+
 Run the tests:
 
 To run all tests in the background (headless mode):
 
-Bash
+
 npx playwright test
+
 To run tests and watch the browser UI (headed mode):
 
-Bash
+
 npx playwright test --headed
+
 View the test report:
 
-Bash
+
 npx playwright show-report
  
 2. Decisions and Trade-offs
