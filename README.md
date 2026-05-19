@@ -57,8 +57,3 @@ Did you use AI to aid with any of this exercise? If so, where and why?
 
 Yes, I utilized GitHub Copilot as an assistant within my VS Code environment. I used it for inline autocompletion to speed up typing repetitive POM boilerplate, and I used Copilot Chat to help brainstorm solutions when I encountered the pointer events intercepted errors caused by the third-party ads. Ultimately, it accelerated my workflow, but I manually reviewed and tested every line of code to ensure it met strict QA best practices.
 
-4. Future Improvements (Given more time)
-   
-CI/CD Pipeline Integration: I would add a GitHub Actions workflow (.github/workflows/playwright.yml) to automatically run this test suite in headless mode on every pull request to the main branch.
-
-Data-Driven Testing: Currently, test data (like the search term "Dress" or the Contact Form inputs) is hardcoded within the spec files. I would extract this data into external JSON fixtures or .env files. This makes it easier to test multiple data variations and run tests across different environments (QA, Staging, Prod).
